@@ -213,7 +213,17 @@
   <ItemGroup>
     <Image Include="res\airplane.ico" />
     <Image Include="res\airplaneDoc.ico" />
+    <Image Include="res\gameover.bmp" />
     <Image Include="res\Toolbar.bmp" />
+    <Image Include="res\바다하늘.bmp" />
+    <Image Include="res\바다하늘에서 저녁되기 전.bmp" />
+    <Image Include="res\밤.bmp" />
+    <Image Include="res\숲하늘.bmp" />
+    <Image Include="res\시작.bmp" />
+    <Image Include="res\여명.bmp" />
+    <Image Include="res\일몰.bmp" />
+    <Image Include="res\일출.bmp" />
+    <Image Include="res\종료화면.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -35,6 +35,10 @@ BEGIN_MESSAGE_MAP(CairplaneView, CView)
 	ON_WM_TIMER()
 	ON_WM_CHAR()
 	ON_WM_SIZE()
+	ON_WM_KEYDOWN()
+	ON_WM_TIMER()
+	ON_WM_CHAR()
+	ON_WM_SIZE()
 END_MESSAGE_MAP()
 
 // CairplaneView 생성/소멸
@@ -225,23 +229,9 @@ CairplaneDoc* CairplaneView::GetDocument() const // 디버그되지 않은 버�
 
 
 // CairplaneView 메시지 처리기
-
-
-
-
-
-
-
-
-
-
-
-
-
 // 새와 충돌하는 지 검사하는 함수 구현
 int CairplaneView::crashTest(int bird_x, int bird_y, int plane_y)
 {
-	// TODO: 여기에 구현 코드 추가.
 	// TODO: 여기에 구현 코드 추가.
 	int result = 0;
 	if (100 >= WinRight + bird_x) {
@@ -256,7 +246,6 @@ int CairplaneView::crashTest(int bird_x, int bird_y, int plane_y)
 // 게임 오버 될 시 r키를 누르면 재시작을 위한 변수 초기화 진행
 void CairplaneView::Restart()
 {
-	// TODO: 여기에 구현 코드 추가.
 	// TODO: 여기에 구현 코드 추가.
 	back_x = 0;
 	type = 0;
@@ -273,6 +262,7 @@ void CairplaneView::Restart()
 	fire_x = -300;
 	fire_y = -300;
 }
+
 
 void CairplaneView::OnKeyDown(UINT nChar, UINT nRepCnt, UINT nFlags)
 {

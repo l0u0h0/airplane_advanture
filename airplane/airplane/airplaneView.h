@@ -44,6 +44,26 @@ public:
 	int type;
 	int back_x;
 	int index;
+	int map_idx;
+	int bird_index;
+	int bird_type;
+	int save_fire;
+	int plane_y;
+	int WinBottom;
+	int WinRight;
+	int text_y;
+	int bird_x;
+	int bird_y;
+	int bird_fly;
+	int dragon_y;
+	int fire_x;
+	int fire_y;
+	int crashTest(int bird_x, int bird_y, int plane_y);
+	void Restart();
+	afx_msg void OnKeyDown(UINT nChar, UINT nRepCnt, UINT nFlags);
+	afx_msg void OnTimer(UINT_PTR nIDEvent);
+	afx_msg void OnChar(UINT nChar, UINT nRepCnt, UINT nFlags);
+	afx_msg void OnSize(UINT nType, int cx, int cy);
 };
 
 #ifndef _DEBUG  // airplaneView.cpp의 디버그 버전

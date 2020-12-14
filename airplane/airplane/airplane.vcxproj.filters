@@ -77,5 +77,35 @@
     <Image Include="res\Toolbar.bmp">
       <Filter>리소스 파일</Filter>
     </Image>
+    <Image Include="res\gameover.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\바다하늘.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\바다하늘에서 저녁되기 전.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\밤.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\숲하늘.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\시작.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\여명.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\일몰.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\일출.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\종료화면.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
   </ItemGroup>
 </Project>
