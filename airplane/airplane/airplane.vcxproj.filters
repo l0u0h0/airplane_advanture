@@ -107,5 +107,11 @@
     <Image Include="res\종료화면.bmp">
       <Filter>리소스 파일</Filter>
     </Image>
+    <Image Include="res\종이비행기.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\paper_airplane.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
   </ItemGroup>
 </Project>

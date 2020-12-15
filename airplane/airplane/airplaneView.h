@@ -64,6 +64,14 @@ public:
 	afx_msg void OnTimer(UINT_PTR nIDEvent);
 	afx_msg void OnChar(UINT nChar, UINT nRepCnt, UINT nFlags);
 	afx_msg void OnSize(UINT nType, int cx, int cy);
+	int fireTest(int fire_x, int fire_y, int plane_y);
+	afx_msg void OnAppRestart();
+	int game;
+	afx_msg void OnGameStart();
+	int difficulty;
+	afx_msg void OnGameEasy();
+	afx_msg void OnGameNormal();
+	afx_msg void OnGameHard();
 };
 
 #ifndef _DEBUG  // airplaneView.cpp의 디버그 버전
